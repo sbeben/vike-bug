@@ -8,7 +8,10 @@ export default function PageHome() {
   });
 
   useEffect(() => {
-    console.log({ env: import.meta.env })
+    // console.log({ env: import.meta.env })
+    console.log({ env: import.meta.env.PUBLIC_ENV__HOST })
+    // const env = import.meta.env
+    // console.log({ value: env.PUBLIC_ENV__HOST })
   })
 
   return (
